@@ -1,0 +1,15 @@
+.m-article {
+    display: flex;
+
+    & img {
+        width: 94px;
+        height: 98px;
+    }
+
+    & :nth-child(2) {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

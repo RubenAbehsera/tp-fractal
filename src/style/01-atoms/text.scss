@@ -1,5 +1,16 @@
 .a-text {}
 
+.a-text--articleTitle {
+    font-size: var(--fontSizeSM);
+    font-family: var(--fontFamilyUbuntu);
+}
+
+.a-text--articleContent {
+    font-size: var(--fontSizeSM);
+    font-family: var(--fontFamilyUbuntu);
+    font-weight: var(--fontWeightThin);
+}
+
 .a-text--orange {
     color: var(--colorTitle);
     font-family: var(--fontFamilyUbuntu);
