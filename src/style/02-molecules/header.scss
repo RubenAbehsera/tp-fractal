@@ -1,0 +1,39 @@
+.m-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.m-header--desktop {
+    border-bottom: 1px solid #707070;
+}
+
+.m-header--empty {
+
+    width: 400px;
+}
+
+.m-header--flex {
+    display: flex;
+}
+
+.m-header--nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 78px;
+    margin-bottom: var(--spaceL);
+}
+
+.m-header__menu {
+    width: 44px;
+    height: 44px;
+}
+
+.m-header__logo {
+    @include medium {
+        width: 513px;
+        height: 142px;
+
+    }
+
+    width: 120px;
+}

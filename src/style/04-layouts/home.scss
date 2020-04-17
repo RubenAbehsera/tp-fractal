@@ -1,0 +1,25 @@
+.l-home {
+
+    &__desktop {
+        display: none;
+    }
+
+    @include medium {
+        &__mobile {
+            display: none;
+        }
+
+        &__desktop {
+            display: block;
+        }
+    }
+
+
+
+
+    &>main {
+        &>div {
+            margin-bottom: var(--spaceL);
+        }
+    }
+}

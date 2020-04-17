@@ -1,15 +1,22 @@
 .m-article {
     display: flex;
+    align-content: center;
 
-    & img {
-        width: 94px;
-        height: 98px;
+    &>:nth-child(1) {
+        max-width: 40%;
+        margin-right: var(--spaceS);
+
     }
 
     & :nth-child(2) {
-        margin-left: 10px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    }
+
+    &__text {
+        &>a {
+            align-self: flex-end;
+        }
     }
 }

@@ -1,8 +1,11 @@
-.a-title {}
-
-.a-title--level2 {
+.a-title {
     font-size: var(--fontSizeL);
     font-family: var(--fontFamilyUbuntu);
     font-weight: var(--fontWeightBold);
+    color: var(--colorTitle);
+}
+
+.a-title--level2 {
+
     color: var(--colorTitle);
 }

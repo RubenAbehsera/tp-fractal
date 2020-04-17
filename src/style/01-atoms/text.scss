@@ -1,35 +1,34 @@
-.a-text {}
+.a-text {
+    font-family: var(--fontFamilyUbuntu);
+
+}
 
 .a-text--articleTitle {
     font-size: var(--fontSizeSM);
-    font-family: var(--fontFamilyUbuntu);
 }
 
 .a-text--articleContent {
     font-size: var(--fontSizeSM);
-    font-family: var(--fontFamilyUbuntu);
     font-weight: var(--fontWeightThin);
 }
 
 .a-text--orange {
     color: var(--colorTitle);
-    font-family: var(--fontFamilyUbuntu);
+
 
 }
 
 .a-text--introduction {
     font-size: var(--fontSizeM);
-    font-family: var(--fontFamilyUbuntu);
     font-weight: var(--fontWeightBold);
 }
 
 .a-text--paragraphe {
-    font-family: var(--fontFamilyAbel);
+    font-family: var(--fontFamilyUbuntu);
     font-weight: 100;
     font-size: var(--fontSizeM);
 }
 
 .a-text--menu {
-    font-family: var(--fontFamilyUbuntu);
     font-size: var(--fontSizeXL);
 }

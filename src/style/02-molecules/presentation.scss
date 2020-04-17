@@ -1,0 +1,27 @@
+.m-presentation {
+    @include medium {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &>div {
+        text-align: center;
+
+        @include medium {
+            max-width: 45%;
+        }
+
+        &>p {
+            @include medium {
+                margin-bottom: 40px;
+            }
+
+            margin-bottom: var(--spaceML);
+            text-align: left;
+
+            &:nth-child(2) {
+                text-align: center;
+            }
+        }
+    }
+}

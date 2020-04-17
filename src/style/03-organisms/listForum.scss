@@ -1,0 +1,12 @@
+.o-listForum {
+
+    &>div {
+        margin-top: var(--spaceL);
+    }
+
+    &--topics {
+        &>div {
+            margin-top: var(--spaceML);
+        }
+    }
+}

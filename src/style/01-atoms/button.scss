@@ -13,32 +13,7 @@
 }
 
 .a-button--action {
-    width: var(--buttonWidth);
-    height: var(--buttonHeight);
-    border-radius: var(----borderRadius);
-    box-shadow: 0 6px 10px 0 rgba(102, 142, 199, 0.4);
     background-color: var(--colorPrimary);
-    font-family: var(--fontFamilyAbel);
-    font-size: var(--fontSizeSM);
-    padding: 15px 32px;
-    line-height: 1.31;
-    text-align: center;
     color: var(--colorTextButton);
-    text-decoration: none;
-}
-
-.a-button--connect {
-    width: var(--buttonWidth);
-    height: var(--buttonHeight);
-    border-radius: var(----borderRadius);
-    box-shadow: 0 6px 10px 0 rgba(102, 142, 199, 0.4);
-    background-color: var(--colorButton);
-    font-family: var(--fontFamilyAbel);
-    font-size: var(--fontSizeSM);
-    padding: 15px 32px;
-    line-height: 1.31;
-    text-align: center;
-    color: var(--colorConnect);
-    border: solid 1px var(--colorConnect);
     text-decoration: none;
 }
