@@ -1,0 +1,20 @@
+.m-footer {
+    background: var(--colorPrimary);
+    padding: 20px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    &__links {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__media {
+        display: flex;
+        width: 20%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+}
