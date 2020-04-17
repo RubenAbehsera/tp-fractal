@@ -1,12 +1,13 @@
 .a-link--white {
-    color: white;
-    font-size: 14px;
-    font-family: 'Ubuntu';
+    color: var(--colorTextButton);
+    font-size: var(--fontSizeS);
+    font-family: var(--fontFamilyUbuntu);
 
 }
 
 .a-link {
-    color: #668ec7;
-    font-size: 16px;
-    font-family: 'Ubuntu';
+    color: var(--colorPrimary);
+    font-size: var(--fontSizeSM);
+    font-family: var(--fontFamilyUbuntu);
+
 }
