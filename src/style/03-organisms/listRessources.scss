@@ -5,7 +5,18 @@
     }
 
     &__container {
+        @include medium {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
         &>div {
+            @include medium {
+                display: flex;
+                max-width: 45%;
+                margin-right: var(--spaceL);
+            }
+
             margin-bottom: var(--spaceL);
         }
     }

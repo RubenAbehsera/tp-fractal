@@ -6,15 +6,33 @@
     flex-direction: column;
     justify-content: space-around;
 
+    @include medium {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
     &__links {
         display: flex;
         justify-content: space-between;
+        margin-right: unset;
+
+        @include medium {
+            justify-content: unset;
+
+            &>a {
+                margin-right: 10px;
+            }
+        }
     }
 
     &__media {
         display: flex;
-        width: 20%;
+        max-width: 20%;
         margin: 0 auto;
-        justify-content: space-between;
+
+        @include medium {
+            margin: unset;
+            max-width: unset;
+        }
     }
 }
