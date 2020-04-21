@@ -1,4 +1,5 @@
 .o-listRessources {
+    margin-bottom: var(--spaceL);
 
     &>:nth-child(1) {
         margin-bottom: var(--spaceM);
@@ -17,7 +18,7 @@
                 margin-right: var(--spaceL);
             }
 
-            margin-bottom: var(--spaceL);
+            margin-bottom: var(--spaceXL);
         }
     }
 

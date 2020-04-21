@@ -1,11 +1,28 @@
 .l-home {
-
-    &>main{
+    &>header {
         width: 80vw;
         margin: 0 auto;
+
+        @include medium {
+            width: 100vw;
+
+
+        }
     }
+
+    &>main {
+        width: 80vw;
+        margin: 0 auto;
+
+    }
+
     &__desktop {
         display: none;
+
+        @include medium {
+            width: 80vw;
+            margin: 0 auto;
+        }
     }
 
     @include medium {
@@ -15,6 +32,14 @@
 
         &__desktop {
             display: block;
+
+            &>.m-header--desktop {
+                &>div {
+                    &>div:nth-child(3) {
+                        margin-right: var(--spaceS);
+                    }
+                }
+            }
         }
     }
 
