@@ -1,5 +1,9 @@
 .l-home {
 
+    &>main{
+        width: 80vw;
+        margin: 0 auto;
+    }
     &__desktop {
         display: none;
     }

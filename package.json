@@ -1,9 +1,11 @@
 {
+   
   "name": "fractal",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "assets": "cp -R src/assets dist",   
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",

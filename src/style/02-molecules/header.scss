@@ -1,3 +1,4 @@
+
 .m-header {
     display: flex;
     justify-content: space-between;
@@ -6,7 +7,6 @@
 .m-header--desktop {
     border-bottom: 1px solid #707070;
 }
-
 .m-header--empty {
 
     width: 400px;
@@ -14,8 +14,13 @@
 
 .m-header--flex {
     display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
 }
-
+.m-connect--desktop{
+    margin-top: 3.5%;
+}
 .m-header--nav {
     display: flex;
     justify-content: space-around;
@@ -30,7 +35,7 @@
 
 .m-header__logo {
     @include medium {
-        width: 513px;
+        width: 190px;
         height: 142px;
 
     }

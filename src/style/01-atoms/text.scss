@@ -26,7 +26,11 @@
 .a-text--paragraphe {
     font-family: var(--fontFamilyUbuntu);
     font-weight: 100;
+    font-size: var(--fontSizeS);
+    @include medium{
     font-size: var(--fontSizeM);
+
+    }
 }
 
 .a-text--menu {
