@@ -3,8 +3,18 @@
 
 }
 
+.a-title--level2 {
+    @include medium {
+        font-size: var(--fontSizeXL) !important;
+    }
+}
+
 .a-text--articleTitle {
     font-size: var(--fontSizeSM);
+
+    @include medium {
+        font-size: var(--fontSizeL);
+    }
 }
 
 .a-text--articleContent {
@@ -15,12 +25,19 @@
 .a-text--orange {
     color: var(--colorTitle);
 
+    @include medium {
+        font-size: var(--fontSizeL);
+    }
 
 }
 
 .a-text--introduction {
     font-size: var(--fontSizeM);
     font-weight: var(--fontWeightBold);
+
+    @include medium {
+        font-size: var(--fontSizeL);
+    }
 }
 
 .a-text--paragraphe {
