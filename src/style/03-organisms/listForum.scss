@@ -4,9 +4,20 @@
         margin-top: var(--spaceL);
     }
 
+
     &--topics {
         &>div {
             margin-top: var(--spaceML);
+        }
+
+        &>:nth-last-child(1) {
+            text-align: center;
+            margin-top: var(--spaceXL);
+
+            @include medium {
+                margin-top: var(--spaceL);
+
+            }
         }
     }
 }
